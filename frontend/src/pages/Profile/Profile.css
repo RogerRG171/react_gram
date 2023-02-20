@@ -1,0 +1,83 @@
+#profile {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  border-bottom: 1px solid #363636;
+}
+
+.profile-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 2em;
+}
+
+.new-photo {
+  padding: 1em;
+  border-bottom: 1px solid #363636;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-photo form {
+  width: 400px;
+}
+.new-photo form label span {
+  font-size: 1em;
+}
+.new-photo form input:focus {
+  opacity: 0.8;
+  color: #fff;
+}
+.new-photo form input[type="text"]:hover,
+.new-photo form input[type="file"]:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.photos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 32%;
+  margin: 0.3em;
+}
+
+.photo img {
+  width: 100%;
+  height: 70%;
+  border-radius: 4px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.actions svg {
+  cursor: pointer;
+}
+
+.edit-photo {
+  margin-bottom: 1em;
+}
+
+.edit-photo img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.hide {
+  display: none;
+}

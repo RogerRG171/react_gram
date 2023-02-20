@@ -1,0 +1,19 @@
+.photo-item img {
+  width: 100%;
+}
+
+.photo-item h2 {
+  text-transform: capitalize;
+}
+#home .photo-item h2 {
+  margin-bottom: 2em;
+}
+
+.photo-author {
+  text-align: left;
+}
+
+.photo-author a {
+  font-weight: bold;
+  color: rgb(0, 213, 255);
+}
